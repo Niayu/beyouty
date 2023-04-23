@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+/* Navbar */
+/* body{
+    background-color: #ceebf0 !important;
+} */
+
+nav {
+    padding: 15px 15px !important;
+}
+
+.bg-color{
+    background-color: white;
+}
+
+.text-brand {
+    letter-spacing: 5px!important;
+    color: #9AC1C9 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.navs{
+    padding: 5px 20px 5px 20px;
+    border: 2px solid #9AC1C9;
+    color: #9AC1C9;
+    background-color: #9ac1c900;
+}
+
+.navs:hover {
+    background-color: #9AC1C9;
+    color: black;
+    border: none;
+    
+}
+
+/* jumbotron */
+
+.jumbotron{
+    height: 45vh;
+    background-image: url('../bahan/masker.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bg-img{
+    
+    background-color: rgba(0, 0, 0, 0.286);
+    background-repeat: no-repeat;
+    height: 45vh;
+}
+
+.card{
+    border: none !important;
+    border-radius: 10px !important;
+    margin-top: 10vh !important;
+    box-shadow: rgb(0, 0, 0);
+}
+
+.card img{
+    text-align: center;
+    border-radius: 10px !important;
+}
+.card .card-body{
+    background-color: #9AC1C9 !important ;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: white !important;
+    margin-top: 3vh !important;
+}
+
+.card .btn-primary{
+    background-color: transparent !important;
+    border: 2px solid #ceebf0;
+    font-size: 12px !important;
+}
+

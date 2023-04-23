@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+/* Navbar */
+/* body{
+    background-color: #ceebf0 !important;
+} */
+
+nav {
+    padding: 15px 15px !important;
+}
+
+.bg-color{
+    background-color: white;
+}
+
+.text-brand {
+    letter-spacing: 5px!important;
+    color: #9AC1C9 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.navs{
+    padding: 5px 20px 5px 20px;
+    border: 2px solid #9AC1C9;
+    color: #9AC1C9;
+    background-color: #9ac1c900;
+}
+
+.navs:hover {
+    background-color: #9AC1C9;
+    color: black;
+    border: none;
+    
+}
+
+/* jumbotron */
+
+.bg-img{
+   
+    background-image: url('../bahan/mba.jpg') ;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 103vh;
+}
+
+.hero-title{
+    
+    width: 30vw;
+    margin-top: 54vh;
+    font-weight: bold;
+    color: white;
+}
+
+.product-hero{
+    margin-top: 3vh;
+    background-color: white !important;
+    border: none !important;
+    color: #9AC1C9 !important;
+    font-weight: bold;
+    border-radius: 0px !important;
+}
+
+
+/* content-1 */
+
+.button-best{
+    border: 2px solid #9AC1C9;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #9AC1C9;
+    margin-top: 9vh;
+}
+
+/* content 2 */
+
+.bg-explain{
+    background-color: #9AC1C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    margin-top: 10vh;
+    box-shadow: -1px 27px 57px 6px #ceebf0;
+   
+}
+  
+
+.bg-3 .collection-c3{
+    background-color: #9AC1C9;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    margin-bottom: 10vh;
+    width: 50vw;
+    
+}
+
+.bg-3 .collection-c3 img{
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.bg-3 .collection-c3 h3{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+/* card */
+
+.card-group .card{
+    border: none !important;
+    border-radius: 10px !important;
+    margin-top: 10vh !important;
+    margin-bottom: 10vh !important;
+}
+
+.card-group .card img{
+    text-align: center;
+    border-radius: 10px !important;
+}
+.card-group .card .card-body{
+    background-color: #9AC1C9 !important ;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: white !important;
+    margin-top: 3vh !important;
+}
+
+.card-group .card .btn-primary{
+    background-color: transparent !important;
+    border: 2px solid #ceebf0;
+    font-size: 12px !important;
+}
+
+
+
+
+
+
+
